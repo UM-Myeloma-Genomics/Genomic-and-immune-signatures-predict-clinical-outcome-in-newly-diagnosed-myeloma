@@ -243,7 +243,6 @@ write.csv(primary.clone.barcodes[,c("Replicate_ID", "Barcode")], file = "Primary
 
 # STEP 5: Compute average expression in CNV clones
 
-knitr::opts_chunk$set(eval = FALSE)
 # Import barcodes that define malignant clones
 primary.clone.barcodes = read.csv("Primary clone barcodes.csv")
 
